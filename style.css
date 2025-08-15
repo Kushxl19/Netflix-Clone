@@ -1,0 +1,470 @@
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body {
+    background-color: black;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Popins', sans-serif;
+
+}
+
+.main {
+    background-image: url('assets/images/netbg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 920px;
+    position: relative;
+}
+
+.main .box {
+    height: 920px;
+    opacity: 0.7;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: 84%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    color: white;
+    gap: 30px;
+
+    font-family: "martel sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hero> :first-child {
+    font-weight: 1000;
+    font-size: 48px;
+    text-align: center;
+}
+
+
+
+.hero> :nth-child(2) {
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+
+.default-ltr-cache-dulgtd {
+
+    color: white;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    position: relative;
+    height: 6.25rem;
+    z-index: 1;
+}
+
+.curve-container {
+
+    color: white;
+    box-sizing: border-box;
+}
+
+.default-ltr-cache-1f97ztc {
+
+    color: white;
+    box-sizing: border-box;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    margin: auto;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    border: solid .25rem transparent;
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    border-bottom: none;
+    background: radial-gradient(50% 500% at 50% -420%,
+            rgba(64, 97, 231, 0.4) 80%,
+            rgba(0, 0, 0, 0.1) 100%), black;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    width: 130%;
+    left: -15%;
+
+
+}
+
+.default-ltr-cache-1f97ztc:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin-top: -.25rem;
+    border-radius: inherit;
+    background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%);
+}
+
+.default-ltr-cache-jtcpfi {
+
+    color: white;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    margin-top: 1.375rem;
+}
+
+.btn1 {
+    padding: 10px;
+    border: 1px solid grey;
+    align-items: center;
+    font-size: large;
+
+}
+
+.btn {
+    padding: 5px 12px;
+
+    background-color: rgba(0, 0, 0, 0.308);
+
+    color: white;
+    border-radius: 3px;
+
+
+
+}
+
+.red-btn {
+    background-color: rgb(229, 9, 20);
+    border: 0;
+    padding-bottom: 8px;
+    cursor: pointer;
+    font-weight: 700;
+    margin-left: 5px;
+    padding: 8.5px 12px;
+    font-size: medium;
+}
+
+.red-btn:hover {
+    background-color: rgb(199, 13, 22);
+
+}
+
+.btn-red {
+
+    background-color: rgb(229, 9, 20);
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 16px 20px;
+    font-size: x-large;
+    align-items: center;
+}
+
+.btn-red:hover {
+
+    background-color: rgb(199, 13, 22);
+
+
+}
+
+.dsvg {
+    margin-left: 5px;
+
+
+}
+
+.lsvg {
+    margin-right: 5px;
+}
+
+.input {
+    background-color: rgba(0, 0, 0, 0.342);
+    width: 15vw;
+    padding: 20px;
+    padding-right: 90px;
+    padding-left: 15px;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 3px;
+    font-size: medium;
+
+
+}
+
+.input-btn-group {
+    display: flex;
+    align-items: center;
+    /* ✅ vertical align both */
+    gap: 10px;
+    /* space between input and button */
+}
+
+/* TV player */
+
+.first {
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Popins', sans-serif;
+    max-width: 70vw;
+    margin-top: 15px;
+    padding-top: 15px;
+    margin-bottom: 3rem;
+
+
+}
+
+.third {
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Popins', sans-serif;
+    max-width: 70vw;
+    margin-top: 15px;
+    padding-top: 15px;
+    margin-bottom: 3rem;
+
+
+}
+
+.tv {
+    position: relative;
+    z-index: 2;
+    color: rgb(255, 255, 255);
+    margin: 5px;
+
+
+}
+
+.span1-tv {
+    font-family: 'Popins', sans-serif;
+    font-size: 35px;
+    font-weight: 900;
+
+
+
+}
+
+.span2-tv {
+    font-family: 'Popins', sans-serif;
+    font-size: medium;
+    font-weight: 700;
+
+
+
+}
+
+.tvImg {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+
+}
+
+.video-bg {
+    position: relative;
+}
+
+.video-bg3 {
+    position: relative;
+    width: 30vw;
+}
+
+.background-video {
+    position: absolute;
+    top: 21%;
+    left: 13%;
+    width: 78%;
+    height: 54%;
+    object-fit: cover;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.sep {
+    height: 7px;
+    background-color: grey;
+    opacity: 0.5;
+
+
+}
+
+.child2 {
+    font-family: sans-serif;
+}
+
+.tvImg3 {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+
+}
+
+.background-video3 {
+    position: absolute;
+    top: 6%;
+    /* 👈 Adjust based on screen position in image */
+    left: 17%;
+    width: 63%;
+    height: 62%;
+    object-fit: cover;
+    z-index: 1;
+    pointer-events: none;
+    /* Disable click on video */
+}
+
+.faq {
+    color: white;
+    padding: 35px;
+
+
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Popins', sans-serif;
+    margin-bottom: 1.5rem;
+    font-weight: 900;
+
+
+}
+
+.faqbox {
+    transition: all 0.4s ease-out;
+    display: flex;
+    background-color: rgb(45, 45, 45);
+    align-items: center;
+    padding: 25px;
+    width: 60vw;
+    justify-content: space-between;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+
+
+
+
+.faqbox span {
+    font-family: inherit;
+    font-size: 24px;
+    font-family: 'Popins', sans-serif;
+    font-weight: bold;
+}
+
+
+
+.faq img {
+    height: 20px;
+    width: 20px;
+}
+
+.faqhover:hover {
+    background-color: rgb(85, 83, 83);
+}
+
+.kushal {
+    justify-content: center;
+
+}
+
+.faq h3 {
+    text-align: center;
+    padding: 10px;
+    margin: 1.5rem auto;
+}
+
+
+
+footer {
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 60vw;
+    margin: auto;
+    padding: 14px;
+
+
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    justify-content: center;
+    opacity: 1;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.footer-item a {
+
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+
+}
+
+footer .que a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer .que {
+    padding: 34px 0;
+
+}
+
+.captcha {
+    padding: 34px 0;
+    color: rgba(255, 255, 255, 0.5);
+    ;
+}
+
+.captcha a {
+    color: rgb(68, 142, 244);
+}
